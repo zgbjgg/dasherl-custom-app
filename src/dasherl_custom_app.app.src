@@ -1,0 +1,17 @@
+{application, dasherl_custom_app,
+ [{description, "A dasherl example of how integrate a complete app"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {dasherl_custom_app_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    jun,
+    dasherl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
