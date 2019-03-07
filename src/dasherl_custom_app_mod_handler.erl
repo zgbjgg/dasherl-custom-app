@@ -2,7 +2,7 @@
 
 -behaviour(dasherl_handler).
 
--export([layout/0, callbacks/0, update_pie_gender/1]).
+-export([layout/0, callbacks/0, update_pie_gender/2]).
 
 layout() ->
     OptionsDropdown = [[{label, 'All'}, {value, 'all'}], [{label, 'Female'}, {value, 'F'}], [{label, 'Male'}, {value, 'M'}]],
@@ -15,7 +15,7 @@ callbacks() ->
     Input = dasherl_dependencies:input('gender', 'value'),
     [{Output, [Input], 'update_pie_gender', ?MODULE, update_pie_gender}].    
 
-update_pie_gender({GenderFilter}) ->
+update_pie_gender(_Bind, {GenderFilter}) ->
     % get dataframe in order to regenerate our figure
     {ok, Dataframe} = dasherl_custom_app_environment:dataframe(),
     {ok, JunWorker} = dasherl_custom_app_environment:worker(),
