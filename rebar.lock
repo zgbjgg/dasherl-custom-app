@@ -1,12 +1,12 @@
 {"1.1.0",
-[{<<"dasherl">>,{pkg,<<"dasherl">>,<<"0.2.2">>},0},
+[{<<"dasherl">>,{pkg,<<"dasherl">>,<<"0.2.3">>},0},
  {<<"erlport">>,{pkg,<<"erlport">>,<<"0.9.8">>},1},
  {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},2},
  {<<"jun">>,{pkg,<<"jun">>,<<"0.1.14">>},0},
  {<<"lager">>,{pkg,<<"lager">>,<<"3.6.8">>},1}]}.
 [
 {pkg_hash,[
- {<<"dasherl">>, <<"B0D1BEE6958EBB87D674A693AF096F3EBCD9452F0E7E25A52E684BA62B743F61">>},
+ {<<"dasherl">>, <<"48D44F22C6C880FC638237C1859443295FD23D29855C44E33FD061A9D5EC1AD8">>},
  {<<"erlport">>, <<"B7DC57EB87F215A671926BFBCD23E6E9C76F8653B0D072627B41431EF51C4D20">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"jun">>, <<"AEBF7CC8EC9C3D8B3932FE5BE23B3A7D35C97783578008357436CEE8C475CA1F">>},
